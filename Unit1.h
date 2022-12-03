@@ -9,6 +9,8 @@
 #include <Vcl.Forms.hpp>
 #include <Vcl.OleCtnrs.hpp>
 #include <Vcl.Buttons.hpp>
+#include <Vcl.Dialogs.hpp>
+#include <Vcl.ExtCtrls.hpp>
 //---------------------------------------------------------------------------
 class TForm1 : public TForm
 {
@@ -22,7 +24,12 @@ __published:	// IDE-managed Components
 	TSpeedButton *SpeedButton6;
 	TSpeedButton *SpeedButton7;
 	TComboBox *ComboBox1;
+	TOpenDialog *OpenDialog1;
+	TSaveDialog *SaveDialog1;
+	TPanel *Panel1;
 	void __fastcall SpeedButton1Click(TObject *Sender);
+	void __fastcall SpeedButton2Click(TObject *Sender);
+	void __fastcall SpeedButton3Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);

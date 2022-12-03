@@ -16,6 +16,19 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 //---------------------------------------------------------------------------
 void __fastcall TForm1::SpeedButton1Click(TObject *Sender)
 {
-    OleContainer1->InsertObjectDialog();
+	OleContainer1->InsertObjectDialog();
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::SpeedButton2Click(TObject *Sender)
+{
+    OleContainer1->CreateObject("Word.Document", false);
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::SpeedButton3Click(TObject *Sender)
+{
+	if (OpenDialog1->Execute() == mrOk)
+	{
+		OleContainer1->CreateObjectFromFile(OpenDialog1->FileName, false);
+	}
 }
 //---------------------------------------------------------------------------
