@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2022.12.04 01:31:38.003,=E:\user_02\source\Project1PCH1.h</Transaction>
-    <Transaction>2022.12.04 01:31:38.227,=E:\user_02\source\Unit1.cpp</Transaction>
-    <Transaction>2022.12.04 01:31:51.054,E:\user_02\source\#OIPZ\RAD\LR13\Unit1.h=E:\user_02\source\Unit1.h</Transaction>
-    <Transaction>2022.12.04 01:31:51.054,E:\user_02\source\#OIPZ\RAD\LR13\Unit1.cpp=E:\user_02\source\Unit1.cpp</Transaction>
-    <Transaction>2022.12.04 01:31:51.054,E:\user_02\source\#OIPZ\RAD\LR13\Unit1.dfm=E:\user_02\source\Unit1.dfm</Transaction>
-    <Transaction>2022.12.04 01:31:52.336,E:\user_02\source\#OIPZ\RAD\LR13\Project1PCH1.h=E:\user_02\source\Project1PCH1.h</Transaction>
-    <Transaction>2022.12.04 01:31:54.347,E:\user_02\source\#OIPZ\RAD\LR13\Project1.cbproj=E:\user_02\source\Project1.cbproj</Transaction>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.054,E:\user_02\source\Unit1.dfm=E:\user_02\source\#OIPZ\RAD\LR13\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.003,=E:\user_02\source\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.336,E:\user_02\source\Project1PCH1.h=E:\user_02\source\#OIPZ\RAD\LR13\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.054,E:\user_02\source\Unit1.h=E:\user_02\source\#OIPZ\RAD\LR13\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.347,E:\user_02\source\Project1.cbproj=E:\user_02\source\#OIPZ\RAD\LR13\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.227,=E:\user_02\source\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.054,E:\user_02\source\Unit1.cpp=E:\user_02\source\#OIPZ\RAD\LR13\Unit1.cpp</Transaction>
   </Transactions>
 </BorlandProject>

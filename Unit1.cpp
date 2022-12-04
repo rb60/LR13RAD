@@ -73,7 +73,7 @@ void TForm1::updateVerbs()
 	TMenuItem* item;
 	for (int i = 0; i < OleContainer1->ObjectVerbs->Count; i++)
 	{
-		item = new TMenuItem(MainMenu1);
+		item = new TMenuItem(DoVerb1);
 		item->Caption = OleContainer1->ObjectVerbs->Strings[i];
 		item->Tag = i;
 		item->OnClick = DoVerbElem1Click;
