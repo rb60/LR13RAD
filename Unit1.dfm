@@ -51,6 +51,7 @@ object Form1: TForm1
     Top = 32
     Width = 23
     Height = 22
+    OnClick = SpeedButton6Click
   end
   object SpeedButton7: TSpeedButton
     Left = 239

@@ -48,3 +48,12 @@ void __fastcall TForm1::SpeedButton5Click(TObject *Sender)
 	}
 }
 //---------------------------------------------------------------------------
+void __fastcall TForm1::SpeedButton6Click(TObject *Sender)
+{
+    if (OpenDialog1->Execute() == mrOk)
+	{
+		OleContainer1->LoadFromFile(OpenDialog1->FileName);
+	}
+}
+//---------------------------------------------------------------------------
+
