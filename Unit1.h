@@ -26,10 +26,11 @@ __published:	// IDE-managed Components
 	TComboBox *ComboBox1;
 	TOpenDialog *OpenDialog1;
 	TSaveDialog *SaveDialog1;
-	TPanel *Panel1;
 	void __fastcall SpeedButton1Click(TObject *Sender);
 	void __fastcall SpeedButton2Click(TObject *Sender);
 	void __fastcall SpeedButton3Click(TObject *Sender);
+	void __fastcall SpeedButton4Click(TObject *Sender);
+	void __fastcall SpeedButton5Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);

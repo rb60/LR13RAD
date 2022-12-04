@@ -32,3 +32,19 @@ void __fastcall TForm1::SpeedButton3Click(TObject *Sender)
 	}
 }
 //---------------------------------------------------------------------------
+void __fastcall TForm1::SpeedButton4Click(TObject *Sender)
+{
+	if (SaveDialog1->Execute() == mrOk)
+	{
+		OleContainer1->SaveToFile(SaveDialog1->FileName);
+	}
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::SpeedButton5Click(TObject *Sender)
+{
+	if (SaveDialog1->Execute() == mrOk)
+	{
+		OleContainer1->SaveAsDocument(SaveDialog1->FileName);
+	}
+}
+//---------------------------------------------------------------------------
