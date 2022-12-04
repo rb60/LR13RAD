@@ -58,6 +58,7 @@ object Form1: TForm1
     Top = 32
     Width = 23
     Height = 22
+    OnClick = SpeedButton7Click
   end
   object OleContainer1: TOleContainer
     Left = 0
