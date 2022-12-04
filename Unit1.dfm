@@ -10,6 +10,7 @@ object Form1: TForm1
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  Menu = MainMenu1
   TextHeight = 15
   object SpeedButton1: TSpeedButton
     Left = 8
@@ -85,5 +86,43 @@ object Form1: TForm1
   object SaveDialog1: TSaveDialog
     Left = 104
     Top = 80
+  end
+  object MainMenu1: TMainMenu
+    Left = 184
+    Top = 80
+    object Insert1: TMenuItem
+      Caption = 'Insert'
+      OnClick = SpeedButton1Click
+    end
+    object Insert2: TMenuItem
+      Caption = 'Create'
+      object Word1: TMenuItem
+        Caption = 'Word'
+        OnClick = SpeedButton2Click
+      end
+      object FromFile1: TMenuItem
+        Caption = 'From File'
+        OnClick = SpeedButton3Click
+      end
+    end
+    object Save1: TMenuItem
+      Caption = 'Save'
+      object asOLEcontainer1: TMenuItem
+        Caption = 'as OLE container'
+        OnClick = SpeedButton4Click
+      end
+      object Doc: TMenuItem
+        Caption = 'as Doc'
+        OnClick = SpeedButton5Click
+      end
+    end
+    object Save2: TMenuItem
+      Caption = 'Open'
+      OnClick = SpeedButton6Click
+    end
+    object DoVerb1: TMenuItem
+      Caption = 'DoVerb'
+      OnClick = SpeedButton7Click
+    end
   end
 end
